@@ -1,0 +1,106 @@
+[14-Sep-2020 07:53:00 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/laborio20/public_html/forms/report/reporte_cotizacion_vp_cliente.php on line 68
+[14-Sep-2020 02:53:54 America/Guayaquil] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/laborio20/public_html/forms/report/reporte_cotizacion_vp_cliente.php on line 48
+[14-Sep-2020 02:53:54 America/Guayaquil] PHP Warning:  A non-numeric value encountered in /home/laborio20/public_html/forms/report/reporte_cotizacion_vp_cliente.php on line 65
+[14-Sep-2020 02:55:53 America/Guayaquil] PHP Warning:  A non-numeric value encountered in /home/laborio20/public_html/forms/report/reporte_cotizacion_vp_cliente.php on line 65
+[14-Sep-2020 02:57:32 America/Guayaquil] PHP Warning:  A non-numeric value encountered in /home/laborio20/public_html/forms/report/reporte_cotizacion_vp_cliente.php on line 65
+[14-Sep-2020 03:00:59 America/Guayaquil] PHP Warning:  A non-numeric value encountered in /home/laborio20/public_html/forms/report/reporte_cotizacion_vp_cliente.php on line 65
+[05-Dec-2020 11:53:26 America/Guayaquil] PHP Warning:  A non-numeric value encountered in /home/laborio20/public_html/forms/report/reporte_vp_cliente.php on line 112
+[05-Dec-2020 11:53:26 America/Guayaquil] PHP Warning:  A non-numeric value encountered in /home/laborio20/public_html/forms/report/reporte_vp_cliente.php on line 112
+[05-Dec-2020 11:53:26 America/Guayaquil] PHP Warning:  A non-numeric value encountered in /home/laborio20/public_html/forms/report/reporte_vp_cliente.php on line 112
+[05-Dec-2020 11:53:26 America/Guayaquil] PHP Warning:  A non-numeric value encountered in /home/laborio20/public_html/forms/report/reporte_vp_cliente.php on line 112
+[05-Dec-2020 16:56:59 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/laborio20/public_html/forms/report/reporte_vp_cliente.php on line 112
+[05-Dec-2020 16:57:05 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/laborio20/public_html/forms/report/reporte_vp_cliente.php on line 112
+[05-Dec-2020 16:57:11 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/laborio20/public_html/forms/report/reporte_vp_cliente.php on line 112
+[06-Dec-2020 10:49:30 America/Guayaquil] PHP Fatal error:  Uncaught Exception: FPDF error: Interlacing not supported: img/labo.png in /home/laborio20/public_html/forms/FPDF/fpdf.php:271
+Stack trace:
+#0 /home/laborio20/public_html/forms/FPDF/fpdf.php(1293): FPDF->Error('Interlacing not...')
+#1 /home/laborio20/public_html/forms/FPDF/fpdf.php(1259): FPDF->_parsepngstream(Resource id #9, 'img/labo.png')
+#2 /home/laborio20/public_html/forms/FPDF/fpdf.php(885): FPDF->_parsepng('img/labo.png')
+#3 /home/laborio20/public_html/forms/report/TD_reportes.php(14): FPDF->Image('img/labo.png', 15, 10, 35)
+#4 /home/laborio20/public_html/forms/FPDF/fpdf.php(334): PDF->Header()
+#5 /home/laborio20/public_html/forms/report/reporte_empleados.php(26): FPDF->AddPage()
+#6 {main}
+  thrown in /home/laborio20/public_html/forms/FPDF/fpdf.php on line 271
+[06-Dec-2020 10:49:35 America/Guayaquil] PHP Fatal error:  Uncaught Exception: FPDF error: Interlacing not supported: img/labo.png in /home/laborio20/public_html/forms/FPDF/fpdf.php:271
+Stack trace:
+#0 /home/laborio20/public_html/forms/FPDF/fpdf.php(1293): FPDF->Error('Interlacing not...')
+#1 /home/laborio20/public_html/forms/FPDF/fpdf.php(1259): FPDF->_parsepngstream(Resource id #7, 'img/labo.png')
+#2 /home/laborio20/public_html/forms/FPDF/fpdf.php(885): FPDF->_parsepng('img/labo.png')
+#3 /home/laborio20/public_html/forms/report/TD_reportes.php(14): FPDF->Image('img/labo.png', 15, 10, 35)
+#4 /home/laborio20/public_html/forms/FPDF/fpdf.php(334): PDF->Header()
+#5 /home/laborio20/public_html/forms/report/reporte_empleados.php(26): FPDF->AddPage()
+#6 {main}
+  thrown in /home/laborio20/public_html/forms/FPDF/fpdf.php on line 271
+[06-Dec-2020 10:49:38 America/Guayaquil] PHP Fatal error:  Uncaught Exception: FPDF error: Interlacing not supported: img/labo.png in /home/laborio20/public_html/forms/FPDF/fpdf.php:271
+Stack trace:
+#0 /home/laborio20/public_html/forms/FPDF/fpdf.php(1293): FPDF->Error('Interlacing not...')
+#1 /home/laborio20/public_html/forms/FPDF/fpdf.php(1259): FPDF->_parsepngstream(Resource id #7, 'img/labo.png')
+#2 /home/laborio20/public_html/forms/FPDF/fpdf.php(885): FPDF->_parsepng('img/labo.png')
+#3 /home/laborio20/public_html/forms/report/TD_reportes.php(14): FPDF->Image('img/labo.png', 15, 10, 35)
+#4 /home/laborio20/public_html/forms/FPDF/fpdf.php(334): PDF->Header()
+#5 /home/laborio20/public_html/forms/report/reporte_empleados.php(26): FPDF->AddPage()
+#6 {main}
+  thrown in /home/laborio20/public_html/forms/FPDF/fpdf.php on line 271
+[06-Dec-2020 10:49:50 America/Guayaquil] PHP Fatal error:  Uncaught Exception: FPDF error: Interlacing not supported: img/labo.png in /home/laborio20/public_html/forms/FPDF/fpdf.php:271
+Stack trace:
+#0 /home/laborio20/public_html/forms/FPDF/fpdf.php(1293): FPDF->Error('Interlacing not...')
+#1 /home/laborio20/public_html/forms/FPDF/fpdf.php(1259): FPDF->_parsepngstream(Resource id #9, 'img/labo.png')
+#2 /home/laborio20/public_html/forms/FPDF/fpdf.php(885): FPDF->_parsepng('img/labo.png')
+#3 /home/laborio20/public_html/forms/report/TD_reportes.php(14): FPDF->Image('img/labo.png', 15, 10, 35)
+#4 /home/laborio20/public_html/forms/FPDF/fpdf.php(334): PDF->Header()
+#5 /home/laborio20/public_html/forms/report/reporte_empleados.php(26): FPDF->AddPage()
+#6 {main}
+  thrown in /home/laborio20/public_html/forms/FPDF/fpdf.php on line 271
+[06-Dec-2020 10:50:00 America/Guayaquil] PHP Fatal error:  Uncaught Exception: FPDF error: Interlacing not supported: img/labo.png in /home/laborio20/public_html/forms/FPDF/fpdf.php:271
+Stack trace:
+#0 /home/laborio20/public_html/forms/FPDF/fpdf.php(1293): FPDF->Error('Interlacing not...')
+#1 /home/laborio20/public_html/forms/FPDF/fpdf.php(1259): FPDF->_parsepngstream(Resource id #7, 'img/labo.png')
+#2 /home/laborio20/public_html/forms/FPDF/fpdf.php(885): FPDF->_parsepng('img/labo.png')
+#3 /home/laborio20/public_html/forms/report/TD_reportes.php(14): FPDF->Image('img/labo.png', 15, 10, 35)
+#4 /home/laborio20/public_html/forms/FPDF/fpdf.php(334): PDF->Header()
+#5 /home/laborio20/public_html/forms/report/reporte_empleados.php(26): FPDF->AddPage()
+#6 {main}
+  thrown in /home/laborio20/public_html/forms/FPDF/fpdf.php on line 271
+[06-Dec-2020 10:50:12 America/Guayaquil] PHP Fatal error:  Uncaught Exception: FPDF error: Interlacing not supported: img/labo.png in /home/laborio20/public_html/forms/FPDF/fpdf.php:271
+Stack trace:
+#0 /home/laborio20/public_html/forms/FPDF/fpdf.php(1293): FPDF->Error('Interlacing not...')
+#1 /home/laborio20/public_html/forms/FPDF/fpdf.php(1259): FPDF->_parsepngstream(Resource id #9, 'img/labo.png')
+#2 /home/laborio20/public_html/forms/FPDF/fpdf.php(885): FPDF->_parsepng('img/labo.png')
+#3 /home/laborio20/public_html/forms/report/TD_reportes.php(14): FPDF->Image('img/labo.png', 15, 10, 35)
+#4 /home/laborio20/public_html/forms/FPDF/fpdf.php(334): PDF->Header()
+#5 /home/laborio20/public_html/forms/report/reporte_pacientes.php(26): FPDF->AddPage()
+#6 {main}
+  thrown in /home/laborio20/public_html/forms/FPDF/fpdf.php on line 271
+[06-Dec-2020 10:50:22 America/Guayaquil] PHP Fatal error:  Uncaught Exception: FPDF error: Interlacing not supported: img/labo.png in /home/laborio20/public_html/forms/FPDF/fpdf.php:271
+Stack trace:
+#0 /home/laborio20/public_html/forms/FPDF/fpdf.php(1293): FPDF->Error('Interlacing not...')
+#1 /home/laborio20/public_html/forms/FPDF/fpdf.php(1259): FPDF->_parsepngstream(Resource id #7, 'img/labo.png')
+#2 /home/laborio20/public_html/forms/FPDF/fpdf.php(885): FPDF->_parsepng('img/labo.png')
+#3 /home/laborio20/public_html/forms/report/TD_reportes.php(14): FPDF->Image('img/labo.png', 15, 10, 35)
+#4 /home/laborio20/public_html/forms/FPDF/fpdf.php(334): PDF->Header()
+#5 /home/laborio20/public_html/forms/report/reporte_empleados.php(26): FPDF->AddPage()
+#6 {main}
+  thrown in /home/laborio20/public_html/forms/FPDF/fpdf.php on line 271
+[06-Dec-2020 10:54:59 America/Guayaquil] PHP Fatal error:  Uncaught Exception: FPDF error: Interlacing not supported: img/labo.png in /home/laborio20/public_html/forms/FPDF/fpdf.php:271
+Stack trace:
+#0 /home/laborio20/public_html/forms/FPDF/fpdf.php(1293): FPDF->Error('Interlacing not...')
+#1 /home/laborio20/public_html/forms/FPDF/fpdf.php(1259): FPDF->_parsepngstream(Resource id #9, 'img/labo.png')
+#2 /home/laborio20/public_html/forms/FPDF/fpdf.php(885): FPDF->_parsepng('img/labo.png')
+#3 /home/laborio20/public_html/forms/report/TD_reportes.php(14): FPDF->Image('img/labo.png', 15, 10, 35)
+#4 /home/laborio20/public_html/forms/FPDF/fpdf.php(334): PDF->Header()
+#5 /home/laborio20/public_html/forms/report/reporte_empleados.php(26): FPDF->AddPage()
+#6 {main}
+  thrown in /home/laborio20/public_html/forms/FPDF/fpdf.php on line 271
+[06-Dec-2020 10:55:08 America/Guayaquil] PHP Fatal error:  Uncaught Exception: FPDF error: Interlacing not supported: img/labo.png in /home/laborio20/public_html/forms/FPDF/fpdf.php:271
+Stack trace:
+#0 /home/laborio20/public_html/forms/FPDF/fpdf.php(1293): FPDF->Error('Interlacing not...')
+#1 /home/laborio20/public_html/forms/FPDF/fpdf.php(1259): FPDF->_parsepngstream(Resource id #9, 'img/labo.png')
+#2 /home/laborio20/public_html/forms/FPDF/fpdf.php(885): FPDF->_parsepng('img/labo.png')
+#3 /home/laborio20/public_html/forms/report/TD_reportes.php(14): FPDF->Image('img/labo.png', 15, 10, 35)
+#4 /home/laborio20/public_html/forms/FPDF/fpdf.php(334): PDF->Header()
+#5 /home/laborio20/public_html/forms/report/reporte_empleados.php(26): FPDF->AddPage()
+#6 {main}
+  thrown in /home/laborio20/public_html/forms/FPDF/fpdf.php on line 271
+[09-Dec-2020 15:55:10 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/laborio20/public_html/forms/report/resultado_sangre_imprimir.php on line 156
+[09-Dec-2020 15:55:14 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/laborio20/public_html/forms/report/resultado_sangre_imprimir.php on line 156
+[11-Dec-2020 22:04:25 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/laborio20/public_html/forms/report/resultado_biometriaHematica_imprimir.php on line 91
